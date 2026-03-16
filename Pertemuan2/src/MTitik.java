@@ -13,16 +13,16 @@ public class MTitik {
         System.out.println("Jumlah objek Titik: " + Titik.getCounterTitik());
         System.out.println("Jumlah objek Titik: " + T1.getCounterTitik());
 
-        // T1.setAbsis(3); //mengubah absis T1 dengan nilai 3
-        // T1.setOrdinat(4); //mengubah ordinat T1 dengan nilai 4
-        // T1.printTitik(); //mencetak koordinat T1 ke layar
-        // T1.geser(3,4); //menggeser T1 sejauh (3,4)
-        // T1.printTitik(); //menampilkan koordinat T1 setelah digeser
+        T1.setAbsis(3); //mengubah absis T1 dengan nilai 3
+        T1.setOrdinat(4); //mengubah ordinat T1 dengan nilai 4
+        T1.printTitik(); //mencetak koordinat T1 ke layar
+        T1.geser(3,4); //menggeser T1 sejauh (3,4)
+        T1.printTitik(); //menampilkan koordinat T1 setelah digeser
 
-        // Titik T2 = T1;
-        // T2.printTitik();
-        // T1.setAbsis(10);
-        // T1.setOrdinat(10);
-        // T2.printTitik();
+        Titik T4 = T1;
+        T4.printTitik();
+        T1.setAbsis(10);
+        T1.setOrdinat(10);
+        T4.printTitik();
     }
 }
